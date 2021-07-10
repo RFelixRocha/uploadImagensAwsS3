@@ -28,7 +28,7 @@ PostSchema.pre('remove', function(){
 
         return s3.deleteObject({
             Bucket: process.env.AWS_BUCKET_NAME,
-            key: this.key,
+            Key: this.key,
         }).promise()
 
     }else{
