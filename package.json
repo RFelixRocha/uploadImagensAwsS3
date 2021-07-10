@@ -1,0 +1,23 @@
+{
+  "name": "uploadImagensAwsS3-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RFelixRocha/uploadImagensAwsS3-backend.git",
+  "author": "RFelixRocha <felixrochaeso@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.11"
+  }
+}
